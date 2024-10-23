@@ -2,7 +2,7 @@
 Library    SeleniumLibrary
 Library    DataDriver    file=data_test.csv    reader_class=generic_csv_reader    encoding=UTF-8    dialect=unix
 Test Template    Enter Test Data On Search Field And Click On Search
-##dialect=excel    dialect=excel_tab    dialect=unix_dialect    #dialect=userdefined   delimiter=,    reader_class=generic_csv_reader
+
 *** Variables ***
 ${base_url}    https://www.google.co.in/
 ${search_bar_element_path}    //*[@title="Search"]
