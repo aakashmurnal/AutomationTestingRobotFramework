@@ -10,7 +10,7 @@ ${selenium}    Selenium
 
 *** Test Cases ***
 01 - To Validate Search Filed With Different Data : ${TestData}
-    [Documentation]    To Validate Search Filed With Different Data ${TestData[1]}
+    [Documentation]    This Test-case used to validate search filed with different data ${TestData[1]}
     [Tags]    Akash
 
 *** Keywords ***
