@@ -8,8 +8,6 @@ def rev_str(data):
         rev=i+rev
     print(rev)
 
-
-
 #### Out Put : tseT noitamotuA reenignE
 def rev_word_str(data):
     split_word=data.split()
@@ -22,4 +20,3 @@ def rev_word_str(data):
 
 rev_str(string)
 rev_word_str(string)
-

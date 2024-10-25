@@ -10,8 +10,6 @@ def count_of_each_char(data):
             tmp[i] = 1
     print(tmp)
 
-
-
 # count_of_each_char(string)
 ### Out Put : Get vowel count from given string
 def count_of_vowel(data):
